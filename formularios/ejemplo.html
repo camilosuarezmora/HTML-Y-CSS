@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Document</title>
 </head>
 <body>
     <h1>Formularios</h1>
     <hr>
     <form name="form de prueba" action="datos_formulario.txt" method="get" target="_blank" novalidate>
-        <label for="texto">input de texto</label>
-        <input type="text" name="Ingresa_texto" id="texto" placeholder="Texto ">
 
+        <label for="texto">Input de texto</label>
+        <input type="text" name="Ingresa_texto" id="texto" placeholder="Texto" autofocus>
+    
         <br>
+
+        <input type="checkbox" name="check" value="1" id="check1">
+        <label for="check1">Opcion 1</label>
+
+        <input type="checkbox" name="check" value="2" id="check2"> 
+        <label for="check1">Opcion 2</label>
+
+        <input type="checkbox" name="check" value="3" id="check3">
+        <label for="check1">Opcion 3</label>
+
+        <input type="checkbox" name="check" value="4" id="check4"> 
+        <label for="check1">Opcion 4</label>
         
-        <input type="checkbox" name="check" value="1" > opc1
-        <input type="checkbox" name="check" value="2"> opc2
-        <input type="checkbox" name="check" value="3"> opc3
-        <input type="checkbox" name="check" value="4"> opc4
+        <br>
+
+        <input type="radio" name="radios" id=""> radio1
+        <input type="radio" name="radios" id=""> radio2
+        <input type="radio" name="radios" id=""> radio3
+        <input type="radio" name="radios" id=""> radio4
+        <input type="radio" name="radios" id=""> radio5
 
         <br>
 
-        <select for="a" name="multiEleccion">
+        <label for="multiopcion">Selecciona una opcion</label>
+        <select for="a" name="multiEleccion" id="multiopcion">
             <option value="1">opcion 1</option>
             <option value="2">opcion 2</option>
             <option value="3">opcion 3</option>
