@@ -13,3 +13,14 @@ img{
 video{
     width: 200px;
 }
+
+table {
+    
+    border-color: rgba(37, 84, 89, 0.917);
+    border-radius: 10%;
+    border-style:solid
+}
+
+tr{
+    align-content: center;
+}
