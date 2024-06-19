@@ -1,0 +1,15 @@
+:root{
+    --colorBonito: rgb(255, 0, 0);
+}
+
+li{
+    color:var(--colorBonito);
+}
+
+img{
+    width: 50px;
+}
+
+video{
+    width: 200px;
+}
