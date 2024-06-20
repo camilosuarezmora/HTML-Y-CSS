@@ -2,7 +2,7 @@
     --colorBonito: rgb(255, 0, 0);
 }
 
-li{
+#EstiloVariable{
     color:var(--colorBonito);
 }
 
@@ -23,4 +23,19 @@ table {
 
 tr{
     align-content: center;
+}
+
+#morado{
+    color:rgb(100 20 150/50%);
+    
+}
+
+#cafe{
+    color:rgb(150 70 10);
+}
+
+#backgroundImage{
+    background: linear-gradient(red, orange, yellow, green, blue);
+    width:fit-content;
+    height:fit-content;
 }
