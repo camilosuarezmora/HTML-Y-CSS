@@ -39,3 +39,16 @@ tr{
     width:fit-content;
     height:fit-content;
 }
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pseudoelementos ::first-line{
+    color:blue;
+    font-size: 100px;
+}
+
+ul#prueba_pseudoelementos ::marker{
+    color:blueviolet;
+}
