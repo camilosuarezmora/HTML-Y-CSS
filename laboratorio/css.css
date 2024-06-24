@@ -52,3 +52,8 @@ tr{
 ul#prueba_pseudoelementos ::marker{
     color:blueviolet;
 }
+
+#fuente_chevre{
+    font-family: "Honk", system-ui;
+    width: 200px;
+}
