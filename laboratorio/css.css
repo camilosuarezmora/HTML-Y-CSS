@@ -57,3 +57,9 @@ ul#prueba_pseudoelementos ::marker{
     font-family: "Honk", system-ui;
     width: 200px;
 }
+
+#content{
+    background-color: aquamarine;
+    width: 100vw;
+    height:10px;
+}
