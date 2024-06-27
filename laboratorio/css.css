@@ -2,6 +2,10 @@
     --colorBonito: rgb(255, 0, 0);
 }
 
+#content-titulo{
+    position:sticky;
+}
+
 #EstiloVariable{
     color:var(--colorBonito);
 }
@@ -60,6 +64,26 @@ ul#prueba_pseudoelementos ::marker{
 
 #content{
     background-color: aquamarine;
-    width: 100vw;
-    height:10px;
+    display: flex;
+    color:white;
+    width: 100px;
+    height: 100px;
+}
+
+#content-horizontal{
+    display: flex;
+    
+}
+
+#header{
+    background-color: rgb(85, 0, 255);  
+    align-self:flex-start;    
+}
+
+#aside{
+    background-color: blueviolet;
+}
+
+#main{
+    background-color: rgb(19, 151, 50);
 }

@@ -1,5 +1,7 @@
 header{
     background-color: transparent;
+    align-self: flex-start;
+    width: 100vw;
 }
 
 body{
@@ -7,6 +9,8 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #logo{
@@ -20,11 +24,16 @@ aside{
     width: 10%;
     height:max-content;
     margin-right: 1em;
+    align-self: ;
+  
 }
 
 main{
     background-color: aliceblue;
     border-radius: 5px;
+    
+    
+    
 }
 
 section{
