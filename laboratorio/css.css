@@ -87,3 +87,32 @@ ul#prueba_pseudoelementos ::marker{
 #main{
     background-color: rgb(19, 151, 50);
 }
+
+#grid{
+    display:grid;
+    /* background-color: brown; */
+    /* grid-template-areas: "rojo rojo rojo rojo rojo"
+    "azul negro rojo amarillo amarillo"; */
+}
+
+#el1{
+    background-color: red;
+    grid-area: rojo;
+}
+
+#el2{
+    background-color: yellow;
+    grid-area:amarillo;
+}
+
+#el3{
+    background-color:blue;
+    color:#ffffff;
+    grid-area:azul;
+}
+
+#el4{
+    background-color: #000000;
+    color:#ffffff;
+    grid-area: negro;
+}
